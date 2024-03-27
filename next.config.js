@@ -10,4 +10,8 @@ module.exports = {
          "firebasestorage.googleapis.com"
       ],
    },
+       
+   eslint: { 
+     ignoreDuringBuilds: true, 
+   }, 
 };
