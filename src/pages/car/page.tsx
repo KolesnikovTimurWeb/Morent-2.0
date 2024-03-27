@@ -35,12 +35,6 @@ const Car = () => {
    const [heart, setHeart] = useState(false)
  
 
-   useEffect(() => {
-      let arr = array.filter(item => item.cartitle.replace(/\s+/g, '') === title)
-
-      setPageArray(arr);
-   }, [array])
-
    const variants = {
       hidden: { opacity: 0 },
       visible: { opacity: 1 },
