@@ -3,8 +3,6 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { Layouts } from "../widgets/layouts";
 import localFont from 'next/font/local'
-import { StoreProvider } from "../redux/provider";
-
 
 
 
