@@ -34,7 +34,7 @@ const Car = () => {
    const [pageArray, setPageArray] = useState([])
    const [heart, setHeart] = useState(false)
    useEffect(() => {
-      setTitle(router.id)
+
       const arrey = JSON.parse(localStorage.getItem("like")) ? JSON.parse(localStorage.getItem("like")) : []
       let itemLocal = arrey.find(item => item.cartitle === title)
       if (!itemLocal) return
