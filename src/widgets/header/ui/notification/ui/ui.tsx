@@ -15,7 +15,7 @@ interface NotificationProps {
 }
 
 
-const Item = ({ title, date }) => {
+const Item = ({ title, date }:any) => {
    dayjs.extend(relativeTime);
 
    const date2 = dayjs(date)
