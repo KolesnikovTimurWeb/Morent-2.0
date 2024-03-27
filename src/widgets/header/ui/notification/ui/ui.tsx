@@ -32,7 +32,7 @@ const Item = ({ title, date }:any) => {
    )
 }
 
-const Notification = ({ varinat, loading }: NotificationProps) => {
+const Notification = ({ varinat, loading,burger}: NotificationProps) => {
 
    const [array, setArray] = useState([])
    dayjs.extend(relativeTime);
