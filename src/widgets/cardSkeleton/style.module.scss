@@ -1,0 +1,20 @@
+.loading{
+   min-width: 240px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   border-radius: 10px;
+   background: #fff;
+   height: 360px;
+}
+.div{
+   width: 100%;
+}
+@media screen and (max-width: 850px) {
+   .loading{
+      max-width: 100%;
+      width: 100%;
+   }
+   
+}

@@ -1,0 +1,31 @@
+.heart{
+
+}
+
+.regular {
+
+}
+
+.outlined{
+   width: 44px;
+   height: 44px;
+   display: flex;
+   align-items: center;
+   img{
+      margin: 0 auto;
+
+   }
+   transition: .2s ease-in-out;
+   cursor: pointer;
+   border-radius: 50%;
+   border: 1px solid #C3D4E9;
+   &:hover{
+      background: #C3D4E9;
+      transition: .2s ease-in-out;
+      img{
+         content: url('../../../../../../assets/icons/heart-active.svg');
+         transition: .2s ease-in-out;
+      }
+   }
+
+}

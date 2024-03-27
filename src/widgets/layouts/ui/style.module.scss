@@ -1,0 +1,31 @@
+.container{
+   max-width: 1312px;
+   margin: 0 auto;
+}
+.containerFilter{
+  margin-right: 33px;
+}
+@media screen and (max-width:1350px){
+   .container{
+      max-width: 1000px;
+      margin: 0 auto;
+   }
+}
+@media screen and (max-width:1050px){
+   .container{
+      max-width: 600px;
+      margin: 0 auto;
+   }
+
+}
+@media screen and (max-width:850px){
+
+   .containerFilter{
+      margin: 0 20px;
+    }
+}
+@media screen and (max-width:650px){
+   .container{
+      margin: 0 20px;
+   }
+}

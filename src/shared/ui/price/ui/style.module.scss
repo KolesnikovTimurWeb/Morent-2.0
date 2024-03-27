@@ -1,0 +1,25 @@
+.price{
+   margin-top: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   h4{
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 700;
+      color: #1A202C;
+   }
+   p{
+      color: #90A3BF;
+      font-size: 14px;
+      font-weight: 700;
+   }
+   h5{
+      color: #90A3BF;
+      font-size: 14px;
+      text-decoration: line-through;
+      font-weight: 700;
+   }
+}

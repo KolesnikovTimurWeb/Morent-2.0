@@ -1,0 +1,114 @@
+.loading{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;   
+   flex-direction: column;
+   h3{
+      font-size: 20px;
+      color: #90A3BF;
+   }
+   border-radius: 10px;
+   background: #fff;
+}
+.car{
+   margin: 0 auto;
+   margin-top: 150px;
+   max-width: 1000px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   &_block{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      width: 100%;
+   }
+   &_text{
+      max-width: 400PX;
+      width: 100%;
+      padding: 24px 24px 0px 24px;
+      background: #fff;
+      border-radius: 10px;
+
+      p{
+         line-height: 200%;
+         font-size: 16px;
+         font-weight: 400;
+         color: #596780;
+         margin: 30px 0;
+      }
+   }
+   &_details{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 20px;
+
+      justify-content: space-between;
+      &_item{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;  
+         h3{
+            font-weight: 400;
+            font-size: 16px;
+            color: #90A3BF;
+         }
+         h4{
+            font-weight: 600;
+            color: #596780;
+            font-size: 16px;
+         }
+      }
+   }
+   &_header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+   &_loading{
+      width: 100%;
+      height: 450px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      animation: skeleton-loading 0.5s linear infinite alternate;
+   }
+}
+@keyframes skeleton-loading {
+   0% {
+     background-color: hsl(0, 0%, 100%);
+   }
+   100% {
+     background-color: hsl(0, 0%, 98.5%);
+   }
+ }
+
+@media screen and (max-width:1050px) {
+   .car{
+      &_block{
+      
+         grid-template-columns: 1fr ;
+      
+      }
+      &_text{
+         max-width: 100%;
+         width: 100%;
+         padding: 24px 24px 0px 24px;
+         background: #fff;
+         border-radius: 10px;
+         p{
+     
+            font-size: 14px;
+            
+         }
+      }
+      &_details{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+         gap: 20px;
+      }   
+   }
+}

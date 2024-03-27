@@ -1,0 +1,50 @@
+.btn{
+   line-height: 160%;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-size: 12px;
+   font-weight: 600;
+   background-color: #3563E9;
+   transition: .2s ease-in-out;
+   border: 1px solid #ffffff00;
+
+}
+.btn:active{
+   background: #1A37A7;
+   transition: .2s ease-in-out;
+}
+.btn:hover{
+   border: 1px solid #CEBEFE;
+   transition: .2s ease-in-out;
+
+}
+.small{
+   color: #FFF;
+   line-height: 160%;
+   padding: 5px 16px;
+   border-radius: 4px;
+   font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+.regular{
+   color: #FFF;
+   line-height: 160%;
+   padding: 9px 16px;
+   border-radius: 4px;
+   font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+.big{
+   color: #FFF;
+   line-height: 160%;
+   padding: 14px 23.5px;
+   font-size: 16px;
+   border-radius: 4px;
+   font-family: "Plus Jakarta Sans", sans-serif !important;
+
+
+}
+
+.lightblue{
+   background-color: #54A6FF;
+}

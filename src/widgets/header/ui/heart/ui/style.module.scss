@@ -1,0 +1,53 @@
+
+.regular {
+
+}
+.loading{
+   width: 44px;
+   height: 44px;
+   display: flex;
+   align-items: center;
+   background: #85A8F8;
+   border-radius: 50%;
+   border: 1px solid #C3D4E9;
+   transition: .2s ease-in-out;
+
+}
+.outlined{
+   width: 44px;
+   height: 44px;
+   display: flex;
+   align-items: center;
+   border: 1px solid #C3D4E9;
+   background: none;
+   img{
+      margin: 0 auto;
+
+   }
+   transition: .2s ease-in-out;
+   cursor: pointer;
+   border-radius: 50%;
+   border: 1px solid #C3D4E9;
+   &:hover{
+      transition: .2s ease-in-out;
+      img{
+         content: url('../../../../../../assets/icons/heart-active.svg');
+         transition: .2s ease-in-out;
+      }
+   }
+
+}
+.heart{
+   position: relative;
+   button{
+      margin: 0 auto;
+      background: none;
+   }
+
+
+}
+.true{
+   font-size: 40px;
+   background: #000;
+}
+
