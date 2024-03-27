@@ -33,20 +33,7 @@ const Car = () => {
    const [title, setTitle] = useState(null)
    const [pageArray, setPageArray] = useState([])
    const [heart, setHeart] = useState(false)
-   useEffect(() => {
-
-      const arrey = JSON.parse(localStorage.getItem("like")) ? JSON.parse(localStorage.getItem("like")) : []
-      let itemLocal = arrey.find(item => item.cartitle === title)
-      if (!itemLocal) return
-      let item = array.find(item => item.cartitle.replace(/\s+/g, '') === itemLocal.cartitle)
-
-      if (item) {
-
-         setHeart(true)
-
-      }
-
-   })
+ 
 
    useEffect(() => {
       let arr = array.filter(item => item.cartitle.replace(/\s+/g, '') === title)
