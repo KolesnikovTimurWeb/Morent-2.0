@@ -32,7 +32,7 @@ const Car = () => {
    }, [])
    const [array, setArray] = useState([])
    const router = useParams();
-   const [title, setTitle] = useState(router.id)
+   const [title, setTitle] = useState(router.id || null)
    const [pageArray, setPageArray] = useState([])
    const [heart, setHeart] = useState(false)
    useEffect(() => {
