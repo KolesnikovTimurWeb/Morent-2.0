@@ -117,7 +117,7 @@ const Car = () => {
                      </div>
                   </div>
                   <Link href={`/payment/${item.cartitle.replace(/\s+/g, '')}`} className={style.price}>
-                     <Price price={item.price} />
+                     <Price key="MORENT" price={item.price} />
                   </Link>
                </motion.div>
             </div>
