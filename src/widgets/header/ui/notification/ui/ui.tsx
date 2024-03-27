@@ -77,4 +77,4 @@ const Notification = ({ varinat, loading }: NotificationProps) => {
    )
 }
 
-export default Notification 
+export default {Notification} 
