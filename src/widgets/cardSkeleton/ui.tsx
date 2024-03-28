@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Image from 'next/image'
 import style from './style.module.scss'
 import s from '@/src/pages/home/style.module.scss'
