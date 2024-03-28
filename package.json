@@ -9,11 +9,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  {
-  "compilerOptions": {
-    "skipDefaultLibCheck": true
-  }
-},
   "engines": {
     "node": "18.x"
   },
