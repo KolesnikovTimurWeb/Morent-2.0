@@ -1,2 +1,2 @@
 import CardSkeleton from "./ui";
-export CardSkeleton 
+export {CardSkeleton} 
