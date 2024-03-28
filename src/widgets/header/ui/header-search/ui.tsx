@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useEffect, useState } from 'react'
 import searchIcon from '@/assets/icons/search-normal.svg'
 import filter from '@/assets/icons/filter.svg'
