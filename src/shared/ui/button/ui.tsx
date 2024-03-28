@@ -6,6 +6,7 @@ import styles from './style.module.scss'
 
 interface ButtonProps {
    className:string,
+   loading:boolean,
    size?: 'small' | 'regular' | 'medium' | 'big';
    variant?: 'blue' | 'lightblue';
    props: ButtonHTMLAttributes<HTMLButtonElement>
