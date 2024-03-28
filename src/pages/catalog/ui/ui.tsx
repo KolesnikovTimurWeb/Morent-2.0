@@ -11,7 +11,7 @@ const Catalog = () => {
    const [data, setData] = useState([])
    const [loading, setLoading] = useState(true)
    const [loadingData, setLoadingData] = useState(true)
-   const priceFunc = (value) => {
+   const priceFunc = (value:string) => {
       setPriceValue(value)
    }
    const handleChange = (event) => {
