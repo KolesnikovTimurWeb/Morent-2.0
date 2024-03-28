@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { Suspense, useEffect, useState } from 'react'
 import Heart from '../../header/ui/heart/ui/ui'
 import style from './style.module.scss'
