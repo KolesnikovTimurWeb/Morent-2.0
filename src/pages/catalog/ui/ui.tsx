@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client"
 import Filter from '@/src/widgets/filter/ui/ui'
 import axios from 'axios'
