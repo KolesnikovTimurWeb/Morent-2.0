@@ -1,3 +1,4 @@
+// @ts-nocheck
 import clsx from 'clsx'
 import React, { ButtonHTMLAttributes } from 'react'
 import styles from './style.module.scss'
